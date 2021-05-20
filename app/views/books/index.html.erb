@@ -1,2 +1,21 @@
-<h1>Books#index</h1>
-<p>Find me in app/views/books/index.html.erb</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <mate charset="UTF-8">
+        <link rel="stylesheets" href="books.scss">
+        <title>WebCampBackendNew</title>
+    </head>
+    <body>
+        <h1>Books</h1>
+        <% @books.each do |book| %>
+        <h4>Title</h4>
+        <h4>Body</h4>
+        <span><%= book.title %></span>
+        <span><%= book.body %></span>
+        <!--titleをShowにしたい-->
+        <span><%= link_to book.title, book_path(book.id) %></span>
+        <!-- --
+        <span></span>
+        <% end %>
+    </body>
+</html>
