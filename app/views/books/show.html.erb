@@ -2,5 +2,6 @@
 <p><strong>Title:</strong><%= @book.title %></p>
 <p><strong>Body:</strong><%= @book.body %></p>
 <!--editのリンク-->
-<div><%= link_to "Edit", edit_book_path(@book) %></div>
-<div><%= link_to "Back", books_path %></div>
+<div class="link"><%= link_to "Edit", edit_book_path(@book) %></div>
+<div class="link"><span>|</span></div>
+<div class="link"><%= link_to "Back", books_path %></div>

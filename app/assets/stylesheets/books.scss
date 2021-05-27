@@ -12,3 +12,44 @@ td{
 a{
   color:#000;
 }
+a:hover{
+  background-color:#000;
+  color:#FFF;
+}
+h1{
+  margin: 17.42px 0;
+}
+h2{
+  margin: 16.185px 0;
+}
+.field{
+  margin-bottom: 10px;
+}
+.errors{
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+.errors h2{
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0;
+  background-color: #c00;
+  color: #fff;
+}
+ul{
+  margin:33px;
+}
+.link{
+  float: left;
+}
+.link span{
+  padding: 0 5px 0 5px;
+}
+.actions{
+  margin-bottom: 10px;
+}
